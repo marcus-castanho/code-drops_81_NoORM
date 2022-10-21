@@ -2,7 +2,7 @@ import express from "express";
 
 import "./database/runMigrations";
 
-import { router } from "./useCases/routes";
+import { router } from "./routes";
 
 const app = express();
 app.use(express.json());
